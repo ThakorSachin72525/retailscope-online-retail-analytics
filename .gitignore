@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/secrets.toml
+*.xlsx
+*.csv
+*.db
+.venv/
+.env
+# Keep genuine portfolio screenshots tracked; ignore only local scratch exports.
+assets/screenshots/*.local.png
+!assets/screenshots/.gitkeep
